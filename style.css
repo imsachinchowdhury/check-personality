@@ -1,0 +1,105 @@
+body{
+    background-color:green;
+    color:white;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-left:-10%;
+}
+.centerDiv{
+    width:50%;
+    margin-top: 5%;
+    margin-left: 20%;
+    border: 2px solid white;
+    text-align: center;
+    background: chocolate;
+}
+.details {
+    margin-top: 3%;
+}
+.details div:nth-child(1){
+    width: 50%;
+    float:left;
+
+}
+.details div:nth-child(2){
+    width: 50%;
+    float:left;
+}
+.details #nameid{
+    margin-top: 1%;
+}
+.imgdiv{
+    margin-top: 15%;
+}
+button{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    background: blue;
+    border: none;
+}
+.btn-1{
+    margin-right: 20%;
+}
+.btn-1:hover{
+    
+    cursor: pointer;
+}
+.btn-2:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width:850px){
+    .details div:nth-child(1){
+        font-size:77%;
+    }
+    .details div #nameid-1{
+        font-size: 30%;
+    }
+    .details div:nth-child(2){
+        font-size:77%;
+    }
+    .details div #nameid-2{
+        font-size: 30%;
+    }
+}
+@media only screen and (max-width:600px){
+    .details div:nth-child(1){
+        font-size:77%;
+    }
+    .details div #nameid-1{
+        font-size: 30%;
+    }
+    .details div:nth-child(2){
+        font-size:77%;
+    }
+    .details div #nameid-2{
+        font-size: 30%;
+    }
+    h1 {
+        font-size: 120%;
+        padding-left:10%;
+    }
+}
+@media only screen and (max-width:600px){
+
+    .centerDiv .imgdiv #imgchange-1{
+        width: 43%;
+        height: 25%;
+        margin-top: 10%;
+    }
+    .centerDiv .imgdiv #imgchange-2{
+        width: 43%;
+        height: 25%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width:600px){
+    .centerDiv .btn-1 {
+        font-size: 66%;
+    }
+    .centerDiv .btn-2 {
+        font-size: 66%;
+    }
+}
